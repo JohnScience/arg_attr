@@ -6,15 +6,7 @@ authors = ["Dmitrii Demenev <demenev.dmitriy1@gmail.com>"]
 description = "Specify the accepted arguments depending on configuration conditional checks."
 documentation = "https://docs.rs/arg_attr"
 readme = "README.md"
-keywords = [
-    "cfg",
-    "cfg_attr",
-    "args",
-    "arguments",
-    "conditional",
-    "compilation",
-    "compile",
-]
+keywords = ["cfg", "cfg_attr", "args", "conditional", "compilation"]
 categories = ["rust-patterns"]
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/JohnScience/arg_attr"
