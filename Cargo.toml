@@ -1,0 +1,33 @@
+[package]
+name = "arg_attr"
+edition = "2021"
+version = "0.1.0"
+authors = ["Dmitrii Demenev <demenev.dmitriy1@gmail.com>"]
+description = "Specify the accepted arguments depending on configuration conditional checks."
+documentation = "https://docs.rs/arg_attr"
+readme = "README.md"
+keywords = [
+    "cfg",
+    "cfg_attr",
+    "args",
+    "arguments",
+    "conditional",
+    "compilation",
+    "compile",
+]
+categories = ["rust-patterns"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/JohnScience/arg_attr"
+
+
+[dependencies]
+syn = { version = "2", features = ["full", "parsing", "printing"] }
+quote = "1"
+proc-macro2 = "1"
+
+[lib]
+proc-macro = true
+
+[[test]]
+name = "test"
+path = "tests/test.rs"
